@@ -1,0 +1,10 @@
+
+Steps:
+
+1. Ask user for input and store filing status in a integer variable
+2. Ask user for another input and store income in another integer variable. 
+
+Ex. int income = myScanner.nextLine();  
+
+Make a class called Person.
+Initialize income and filing status inside of it.

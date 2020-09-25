@@ -1,0 +1,176 @@
+/**
+    Design
+    1. name ld be red
+    2. about should be on the left side
+    3. profile picture should be top middle
+    4. friends box should be  profile pic on left and name and buttons in column 
+    5. should have reply buttom 
+*/
+
+h1, h2 {
+    color:white;
+}
+
+.outerContainer{ 
+    border: 1px solid green;
+
+    height: 100vh;
+    width: 100vw;
+
+    background: darkblue;
+
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+
+}
+
+#name{ color: red; text-align: center;}
+
+.topRow {
+    border: 5px solid red;
+    box-shadow: 9px 10px black;
+    width: 1000px;
+    background: white;
+
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.wallContainer {
+
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;;
+
+}
+
+.wallContainer .posts {
+    padding: 100px;
+    background: grey;
+}
+
+.topRow div {
+    margin: 10px;
+}
+
+.topRow h2 {
+    color: black;
+}
+
+.aboutBox{ 
+    border: 2px solid black; 
+    width: 300px;
+    text-align: center;
+}
+
+
+.aboutBox .item {
+
+    border: 5px solid blue;
+    box-shadow: 5px 3px black;
+
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.aboutBox .title {
+    color: white;
+    background: green;
+    text-align: center;
+
+    padding: 20px;
+}
+
+.aboutBox .content {
+    color: white;
+    background: red;
+    text-align: center;
+
+    padding: 20px;
+}
+
+#profilePic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profilePic img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.friendsList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    border: 3px solid black;
+}
+
+.friendsContainer {
+
+    border: 1px solid red;
+}
+
+#sampleFriend {
+
+    box-shadow: 2px 3px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.friendsContainer .col2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.actionBox {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.friendsContainer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+
+
+.commentBox {
+    border: 5px solid black;
+    padding: 20px;
+    text-align: center;
+    background: white;
+}
+
+.commentBox h2{
+
+    color: black;
+}
+
+.newComments {
+    padding: 20px;
+    border: 2px solid green;;
+    box-shadow: 4px 3px green;
+}

@@ -1,0 +1,182 @@
+<!--
+    BASIC HTML
+        p
+        h1-h5
+        div
+        a
+        img
+        input
+-->
+
+<!-- 
+    HTML ATTRIBUTES
+    
+        href
+        src
+        style
+        class
+        id
+-->
+
+<!--
+    BASIC CSS
+        margin
+        padding
+        height
+        width
+        color
+        background
+        text-align
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 1px solid red;
+            margin: 150px;
+            padding: 50px;
+
+            max-width: 50px;      
+            background: red;
+            color: white;
+        }
+
+        #faz { max-width: 200px;}
+
+
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>
+        Hi my name is
+        <span id="userName"></span>
+    </h1>
+
+    <div class="">
+        1
+    </div>
+
+    <div class="" id="faz">
+        2
+    </div>
+
+    
+    <div class="">
+        3
+    </div>  
+
+    <div class="">
+        4
+    </div>
+
+</body>
+
+
+<!--
+    In Javascript pieces of information are stored in variables.
+        This info can be Strings with "" or integers which are just numbers.
+        Ex. var name = "Bob";
+        Ex. var age = 15;
+
+    Function is a block of code that does something.
+        Ex.     function changeColor() {
+                    $(this).css({'background':'green'});
+                    $(this).css({'color':'orange'});
+                }
+    
+    BASIC jQuery Functions
+       click
+       text
+       css
+
+-->
+<script>
+    // This script runs when the page loads
+    var name = "Faraz";
+    $("#userName").text(name);
+    $("#userName").css({'color':'red'});
+</script>
+
+<script>
+    // This script runs when a user clicks on an element
+    $("div").click(function() {
+        alert("HEY THERE GOOD SIR!");
+    });
+
+    function message(){
+        alert("hi");
+    }
+    $("h1").click(message);
+
+    function changeColor() {
+        $(this).css({'background':'green'});
+        $(this).css({'color':'orange'});
+    }
+    
+    $("div").click(changeColor);
+
+    $("div").click(function() {
+        $(this).css({'background':'green'});
+        $(this).css({'color':'orange'});
+    });
+  
+
+</script>
+
+<script>
+    // Variables
+    var name = "Faraz";         //String - Any word, symbol, number with quotes
+    console.log(name);
+
+    var x = 12;                 //Integers - Whole Numbers | Ex.2
+    var y = 15;                 //Doubles  - Numbers with Decimals | Ex. 2.5
+    var sum;
+
+    sum = x + y;
+    console.log(sum);
+
+    //faraz, khuzaima, sabeen, life
+    //apples, banana, grapes, peaches
+    
+    // Data Structure: Array - Container for list likes items
+
+    var names = ['faraz', 'khuzaima', 'sabeen'];
+    
+    var fruits = [];
+    console.log(fruits);
+    fruits.push("apple");    //push is a function that adds stuff to an array
+    fruits.push("bannana"); 
+
+    // Index is the place in the list where an item is
+    // Indexes start at 0
+    // Ex. appple is at index 0 in the list. Aka first item in the last
+
+
+    // For Loops - Going through stuff
+    // If statements - Conditional
+
+</script>
+
+<!--
+
+    FRONTEND
+    HTML - Display Blocks
+    CSS - Design & Animation
+    JS - Interactivity, Loading Data
+
+    BACKEND
+    PYTHON | JAVA | C#
+    - Connect to Database
+    - Give your pages different routes. Ex. khuzaima.com -> khuzaima.com/addUser
+    - Connects to different application
+
+-->
+
+</html>

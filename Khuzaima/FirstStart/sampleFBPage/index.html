@@ -1,0 +1,93 @@
+<!--
+    Project: Facebook Profile Page
+
+    Content
+    1. Name of the person
+    2. it should have about
+    3. it should have a profile picture
+    4. it should have friends list
+    5  comment box
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+   <div class="outerContainer">
+        <h1> Profile Page</h1>
+        <h2> Welcome <span id="name"></span></h2>
+
+        <div class="topRow">
+            <div class="aboutBox">
+                <h2>About </h2>
+                <div class="item">
+                    <h4 class="title">Education</h4>
+                    <div class="content">Aalim</div>
+                </div>
+                <div class="item">
+                    <h4 class="title">Work</h4>
+                    <div class="content">Imam</div>
+                </div>
+                <div class="item">
+                    <h4 class="title">Hobbies</h4>
+                    <div class="content">
+                        <ul>
+                            <li>BBQ</li>
+                            <li>Swimming</li>
+                            <li>Badminton</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wallContainer">
+                <div id="profilePic">
+                    <img src="https://i2.wp.com/bibleimpact.org/wp-content/uploads/2018/02/Profile-shadow.jpg?fit=420%2C420&ssl=1" alt="">
+                </div>
+
+                <div class="posts"></div>
+            </div>
+
+            <div class="friendsList">
+
+                <h2>My Friends</h2>
+
+                <div class="friendsContainer">
+                    <div id="sampleFriend">
+                        <img src="https://i2.wp.com/bibleimpact.org/wp-content/uploads/2018/02/Profile-shadow.jpg?fit=420%2C420&ssl=1" alt="">
+                        <div class="col2">
+                            <p class="friendName">Sample Name</p>
+                            <div class="actionBox">
+                                <button>Add Friend</button>
+                                <button>Remove</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="commentBox">
+            <h2>Comments</h2>
+
+            <div class="newComments">
+                <input id="commentInput" type="text">
+                <button id="addComment">Reply</button>
+                <div><span class="charactersLeft">20</span> characters left</div>
+            </div>
+
+        </div>
+    </div> 
+</body>
+<script src="jsExample.js"></script>
+<script src="jqExample.js"></script>
+
+</html>
