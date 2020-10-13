@@ -33,13 +33,14 @@ $("#name").text(userName);
 
 // Click about and open up about section
 $(".aboutBox").click(function() {
-
-    var currentDisplay = $(".item").css('display');
+    
+    var ele = $(".item");
+    var currentDisplay = ele.css('display');
 
     if (currentDisplay === "none") {
-        $(".item").css({"display": "flex"});
+        ele.css({"display": "flex"});
     } else {
-        $(".item").css({"display": "none"});
+        ele.css({"display": "none"});
     }
 });
 
@@ -55,7 +56,7 @@ $('#commentInput').change(function() {
 
     var maxValue = 20;
     console.log(maxValue);
-
+     
     var commentValue = $("#commentInput").val();   // Value in the input box                
     console.log(commentValue);
 
@@ -81,3 +82,33 @@ $('#profilePic img').click(function() {
         $('#profilePic img').css({"height":"150px", "width":"150px", "position": "static"});
     }
 });
+
+// Load in friend list
+/*
+    - Array of Friends & their Profile Pics
+    - Loop through each friend
+        - Add it to the page
+        - Clone existing sample box and insert friend info in it
+*/
+
+var friendList = ["hamza", "abid", "faraz", "daniel"];
+
+var pic1 = "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fprofile&psig=AOvVaw3ieiMCzb52NEn3DLfpgT5w&ust=1602360808614000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDp26mpqOwCFQAAAAAdAAAAABAD";
+var pic2 = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fprofile%2F&psig=AOvVaw3ieiMCzb52NEn3DLfpgT5w&ust=1602360808614000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDp26mpqOwCFQAAAAAdAAAAABAN";
+var pic3 = "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fprofile&psig=AOvVaw3ieiMCzb52NEn3DLfpgT5w&ust=1602360808614000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDp26mpqOwCFQAAAAAdAAAAABAS";
+var pic4 = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F863846772250682571%2F&psig=AOvVaw3ieiMCzb52NEn3DLfpgT5w&ust=1602360808614000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDp26mpqOwCFQAAAAAdAAAAABAX";
+var pic5 = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fweheartit.com%2Fpictures%2Fprofile%2520pic&psig=AOvVaw3ieiMCzb52NEn3DLfpgT5w&ust=1602360808614000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDp26mpqOwCFQAAAAAdAAAAABAd";
+
+var profileList = [pic1, pic2, pic3, pic4, pic5];
+
+for (var i=0; i<friendList.length; i++) {
+    var currentFriend = friendList[i];
+    var currentPicture = profileList[i]; 
+
+    var newBox = $("#sampleFriend").clone();    
+    $('.friendsContainer').append(newBox);
+
+    var currentBox = $("#sampleFriend").last();
+    currentBox.find('.profilePic').attr("src", currentPicture);
+    currentBox.find('.friendName').text(currentFriend);
+}
