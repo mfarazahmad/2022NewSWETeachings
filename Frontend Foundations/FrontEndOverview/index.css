@@ -1,0 +1,35 @@
+/** This is where Styling goes */
+
+/** You select an element and you add properties to design it*/
+
+img {
+    height: 100px;
+    width: 80px;
+    border: 1px solid green;
+}
+
+h2 {
+    border : 5px solid yellow;
+    color : blue;
+}
+
+/** The more specific you are in your selector the more power you have over others
+    id > class > tagname
+*/
+
+#subheader2 {
+    color: green;
+}
+
+.headerBox {
+    font-size: 12px;
+    color: red;
+    border : 2px solid red;
+}
+
+#box {
+    background: cyan;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
