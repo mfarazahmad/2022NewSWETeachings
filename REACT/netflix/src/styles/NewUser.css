@@ -1,0 +1,17 @@
+.newUserBox {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.newUserBox input {
+    width: 200px;
+}
+
+.newUserBox h2 {
+    color: white;
+}

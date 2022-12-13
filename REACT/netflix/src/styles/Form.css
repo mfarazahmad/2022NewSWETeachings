@@ -1,0 +1,58 @@
+.formBack {
+    height: 100%;
+    width: 100%;
+  
+    position: absolute;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    margin: 10px 0px;
+    padding: 20px;
+  
+    background: #22A2F2;
+    border: 3px solid black;
+    box-shadow: 5px 8px black;
+    border-radius: 20px;
+    z-index: 100;
+  }
+
+  .closeBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .closeBox button {
+    height: 20px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  .closeBox button:hover {
+    background: red;
+  }
+  
+  .addBtn {
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: #1A2E40;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .addBtn:hover  {
+    background-color: red;
+  }

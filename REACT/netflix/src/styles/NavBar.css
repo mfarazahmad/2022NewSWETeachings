@@ -1,0 +1,53 @@
+
+.navBar {
+    height: 7vh;
+    max-height: 50px;
+    background: black;
+    color: white;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 40px;
+  }
+  
+  .searchBar {
+    display: flex;
+    height: 35px;
+    width: 30%;
+    max-width: 500px;
+  }
+  
+  .searchBar button {
+    border: 1px solid black;
+    border-radius: 10px;
+    background: blue;
+    box-shadow: 2px 3px black;;
+    color: white;
+    cursor: pointer;
+    margin:0px;
+  }
+  
+  .searchBar button:hover {
+    background: red;
+  }
+  
+  .searchBar input {
+    border: 2px solid green;
+    margin: 0px;
+  }
+  
+  .searchBar input:hover {
+    box-shadow: none;
+  }
+
+  .loginBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }

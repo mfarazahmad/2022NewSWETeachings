@@ -1,0 +1,114 @@
+{
+    "data":[
+        {
+            "title": "Stranger Things",
+            "seasons": "4",
+            "cast": "Finn Wolfhard, Millie Brown, Noah Schnapp",
+            "feelings": "",
+            "genre": "Sci-Fi",
+            "censoryRating": "PG-14",
+            "UserRating": "8",
+            "Year": "2016",
+            "Descripton": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back."
+        },
+        {
+            "title": "Peaky Blinders",
+            "seasons": "10",
+            "cast": "Gaten Matarazzo, Caleb McLaughlin, Sadie Sink",
+            "feelings": "",
+            "genre": "Drama",
+            "censoryRating": "PG-15",
+            "UserRating": "6",
+            "Year": "2013",
+            "Descripton": "A gangster family epic set in 1900s England, centering on a gang who sew razor blades in the peaks of their caps."
+        },
+        {
+            "title": "Squid Game",
+            "seasons": "2",
+            "cast": "HoYeon Jung, Lee Jung-jae, Gong Yoo",
+            "feelings": "",
+            "genre": "Drama",
+            "censoryRating": "R",
+            "UserRating": "8.7",
+            "Year": "2016",
+            "Descripton": "Squid Game focuses on a desperately indebted group of people in South Korea"
+        },
+        {
+            "title": "Ozark",
+            "seasons": "12",
+            "cast": "Jason Bateman, Julia Garner, Sofia Hublitz",
+            "feelings": "",
+            "genre": "Thriller",
+            "censoryRating": "R",
+            "UserRating": "9",
+            "Year": "2017",
+            "Descripton": "A financial advisor drags his family from Chicago to the Missouri Ozarks, where he must launder money to appease a drug boss."
+        },
+        {
+            "title": "The Witcher",
+            "seasons": "6",
+            "cast": "Henry Cavill, Freya Allan, Anya Chalotra",
+            "feelings": "",
+            "genre": "Fantasy",
+            "censoryRating": "PG-14",
+            "UserRating": "8",
+            "Year": "2019",
+            "Descripton": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts. "
+        },
+        {
+            "title": "Umbrella Academy",
+            "seasons": "1",
+            "cast": "bob,joe",
+            "feelings": "Sad",
+            "genre": "Dark",
+            "censoryRating": "PG-13",
+            "UserRating": "7",
+            "Year": "1992",
+            "Descripton": "Joe is going to a very dark mansion.."
+        }, 
+        {
+            "title": "Lion King",
+            "seasons": "6",
+            "cast": "Ryan,Blake",
+            "feelings": "Courage",
+            "genre": "Family",
+            "censoryRating": "G",
+            "UserRating": "9",
+            "Year": "1992",
+            "Descripton": "The king of the pridelands finds his son"
+        }, 
+        {
+            "title": "Pinnochio",
+            "seasons": "3",
+            "cast": "John, Alan",
+            "feelings": "Love",
+            "genre": "Adventure",
+            "censoryRating": "G",
+            "UserRating": "6",
+            "Year": "1990",
+            "Descripton": "A wooden puppet finds his missing owner"
+        }, 
+        {
+            "title": "Wedding Crashers",
+            "seasons": "1",
+            "cast": "Ryan Gosling, Tim Allen",
+            "feelings": "Love",
+            "genre": "Comedy",
+            "censoryRating": "R",
+            "UserRating": "7.5",
+            "Year": "2007",
+            "Descripton": "Ben and Joe Bob crashes a lavish wedding"
+        }, 
+        {
+            "title": "Teen Titans",
+            "seasons": "2",
+            "cast": "Batman, Robin",
+            "feelings": "Happy",
+            "genre": "Action",
+            "censoryRating": "R",
+            "UserRating": "8",
+            "Year": "2014",
+            "Descripton": "Batman, Robin, and the gang try to stop their new nemesis"
+        }
+    ]
+}         

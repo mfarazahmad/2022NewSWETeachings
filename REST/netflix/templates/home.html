@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Home</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mukta:wght@200&display=swap');
+    </style>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+    <div class="outerContainer">
+        <h1>Welcome to Netflix!</h1>
+
+        <div class="form">
+            <h2>NEW MOVIE</h2>
+            <input class="title" type="text" placeholder="title">
+            <input class="seasons" type="text" placeholder="seasons">
+            <input class="censor" type="text" placeholder="censor rating">
+            <input class="release" type="text" placeholder="release date">
+            <br>
+            <button class="addBtn">Add</button>
+        </div>
+        <div class="moviesList"></div>
+    </div>
+</body>
+<script src="http://127.0.0.1:5000/static/js/index.js"></script>
+</html>

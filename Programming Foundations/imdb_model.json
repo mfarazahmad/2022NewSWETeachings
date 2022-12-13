@@ -1,0 +1,111 @@
+
+{
+    "movies": [
+        {   
+            "title": "Lion King",
+            "releaseDate": 1992,
+            "overallRating": 5,
+            "genre": "cartoon",
+            "actors": [
+                {
+                    "name": "Tom Cruise",
+                    "dob": "1992",
+                    "height": "5'2",
+                    "weight": "110"
+                },
+                {
+                    "name": "Rakin Smith",
+                    "dob": "1965",
+                    "height": "5'2",
+                    "weight": "160"
+                },
+                {
+                    "name": "Khuzaima James",
+                    "dob": "1972",
+                    "height": "5'2",
+                    "weight": "210"
+                },
+                {
+                    "name": "Kamran Rick",
+                    "dob": "1999",
+                    "height": "5'2",
+                    "weight": "170"
+                }
+            ]
+        },
+        {   
+            "title": "Aladdin",
+            "releaseDate": 1991,
+            "overallRating": 5,
+            "genre": "cartoon",
+            "actors": [
+                {
+                    "name": "Tom Cruise",
+                    "dob": "1992",
+                    "height": "5'2",
+                    "weight": "110"
+                },
+                {
+                    "name": "Rakin Smith",
+                    "dob": "1965",
+                    "height": "5'2",
+                    "weight": "160"
+                }
+            ]
+        },
+        {   
+            "title": "Cinderalla",
+            "releaseDate": 1958,
+            "overallRating": 5,
+            "genre": "cartoon",
+            "actors": [
+                {
+                    "name": "Khuzaima Queen Jones",
+                    "dob": "1972",
+                    "height": "5'2",
+                    "weight": "210"
+                }
+            ]
+        }
+    ],
+    "actors": [
+        {
+            "name": "Tom Cruise",
+            "dob": "1992",
+            "height": "5'2",
+            "weight": "110"
+        },
+        {
+            "name": "Rakin Smith",
+            "dob": "1965",
+            "height": "5'2",
+            "weight": "160"
+        },
+        {
+            "name": "Khuzaima James",
+            "dob": "1972",
+            "height": "5'2",
+            "weight": "210"
+        },
+        {
+            "name": "Kamran Rick",
+            "dob": "1999",
+            "height": "5'2",
+            "weight": "170"
+        }
+    ],
+    "users": [
+        {   
+            "name": "Faraz",
+            "email": "farazfff@haii.com",
+            "reviews": [
+                {
+                    "title": "Lion King",
+                    "description": "Stellar Movie! Would Recommend",
+                    "rating": 5
+                }
+            ]
+        }
+    ]
+    
+}

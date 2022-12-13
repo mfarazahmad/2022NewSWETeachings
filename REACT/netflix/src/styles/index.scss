@@ -1,0 +1,50 @@
+@import 'NavBar.css';
+@import 'MoviesDisplay.css';
+@import 'Form.css';
+@import 'NewUser.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mukta:wght@200&display=swap');
+
+h1{
+    color: white;
+    text-align:  center;
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+  }
+  
+  body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+  
+    background: black;
+    font-family: 'Mukta', sans-serif;
+  }
+  
+  
+  .outerContainer {
+    background: #1A2E40;
+    background: linearGradient( #1A2E40, #22A2F2 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 50px;
+    
+  }
+  
+  input {
+    border-radius: 10px;
+    box-shadow: 3px 5px #1A2E40;
+    width: 80%;
+    margin: 5px;
+    padding: 5px 10px;
+  
+    cursor: pointer;
+  }
+  
+  input:hover {
+    border: 1px solid green;
+    box-shadow: 3px 5px green;
+  }

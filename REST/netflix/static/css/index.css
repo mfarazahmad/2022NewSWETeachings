@@ -1,0 +1,98 @@
+h1{
+    color: white;
+    text-align:  center;
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+
+    background: black;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+.outerContainer {
+    background: #1A2E40;
+    background: linearGradient( #1A2E40, #22A2F2 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px 0px;
+    padding: 20px;
+
+    background: #22A2F2;
+    border: 3px solid black;
+    box-shadow: 5px 8px black;
+    border-radius: 20px;
+}
+
+.form:hover {
+    border: 5px solid red;
+}
+
+input {
+    border-radius: 10px;
+    box-shadow: 3px 5px #1A2E40;
+    width: 80%;
+    margin: 5px;
+    padding: 5px 10px;
+
+    cursor: pointer;
+}
+
+input:hover {
+    border: 1px solid green;
+    box-shadow: 3px 5px green;
+}
+
+.addBtn {
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: #1A2E40;
+    color: white;
+    cursor: pointer;
+}
+
+.addBtn:hover  {
+    background-color: black;
+}
+
+.moviesList {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 20vw);
+    grid-gap: 15px;
+    margin: 10px 0px;
+}
+
+.movies {
+    margin: 0px 20px;
+    width: 200px;
+    color: black;
+
+    text-align: center;
+
+    border: 3px solid black;
+    box-shadow: 1px 2px black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.movies:hover {
+    border: 3px solid #22A2F2;
+    box-shadow: 2px 3px #22A2F2;
+}
